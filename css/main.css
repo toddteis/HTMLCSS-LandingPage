@@ -282,7 +282,7 @@ footer:after {
 }
 .lists {
   flex: 0 0 75%;
-  padding-left: 30px;
+  padding-left: 15px;
   padding-right: 15px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -290,7 +290,7 @@ footer:after {
 .link-header {
   text-transform: uppercase;
   font-size: 16px;
-  font-size: 700;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 footer a {
@@ -303,7 +303,7 @@ footer a:hover {
   text-decoration: underline;
 }
 .social ul li {
-  display: inline-inline-block;
+  display: inline-block;
 }
 .social ul li a {
   display: block;
@@ -313,16 +313,16 @@ footer a:hover {
   background-position: center;
 }
 .twitter {
-  background-image: url(../img/twitter.svg);
+  background-image: url("../img/twitter.svg");
 }
 .facebook {
-  background-image: url(../img/facebook.svg);
+  background-image: url("../img/facebook.svg");
 }
 .instagram {
-  background-image: url(../img/instagram.svg);
+  background-image: url("../img/instagram.svg");
 }
 .pinterest {
-  background-image: url(../img/pinterest.svg);
+  background-image: url("../img/pinterest.svg");
 }
 .newsletter .link-header {
   font-size: 12px;
@@ -336,7 +336,7 @@ footer a:hover {
   margin-bottom: 15px;
 }
 .newsletter input {
-  border-radius: 1px solid #364147;
+  border: 1px solid #364147;
   width: 200px;
   margin-bottom: 10px;
 }
@@ -351,12 +351,14 @@ footer a:hover {
   padding: 40px 0;
   color: #e5e5e5;
   font-size: 16px;
+}
+.ps img {
   max-width: 230px;
 }
 .demo {
   padding: 0 30px;
 }
-.demo::before {
+.demo:before {
   content: "";
   display: block;
   width: 100%;
